@@ -1,0 +1,103 @@
+.body1{
+    background-color: rgb(9, 7, 7); 
+    background-image: linear-gradient(to bottom, rgb(2, 2, 2), #1c1a1a);
+    height: 1000px;
+   
+}
+.navbar{
+    position: fixed;
+    top: 10px;
+    
+}
+.navbar-brand{
+    font-family: 'Yeon Sung', cursive;
+    margin-left: 15px;
+  
+}
+.nav-link{
+    margin-left: 10px;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+    
+}
+.child{
+    height: 500px;
+    width: 600px;
+   color: rgba(245, 245, 220, 0.671);
+   /* background-color: rgb(36, 120, 120); */
+    
+}
+span{
+    font-size: larger;
+    color: #ffffff;
+}
+.about{
+    align-items: center;
+   
+}
+.txt{
+    margin-top: 150px;
+    margin-left: 80px;
+    animation: type 3s;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+.txt2{
+    margin-left: 80px;
+    animation: type1 3.5s;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+@keyframes type{
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 22ch;
+    }
+}
+@keyframes type1{
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 21ch;
+    }
+}
+.photo{
+   margin-left: 150px;
+}
+.img1{
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+.aboutme{
+    padding: 10px;
+    color: rgb(246, 239, 239);
+}
+
+@media(min-width:100px) and (max-width:450px){
+    .img1{
+          width: 100%;
+          display: inline;
+    }
+    .parent{
+        display: block;
+        
+        
+    }
+    .child{
+        display: inline;
+    }
+
+    
+}
+    

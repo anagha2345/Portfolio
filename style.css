@@ -34,11 +34,11 @@ body{
 }
 :root{
      --primary-color:#edf2fc;
-    --secondary-color:#212121;
+    --secondary-color:#010000;
    
 }
 .dark-theme{
-    --primary-color:#212121;
+    --primary-color:#030202;
     --secondary-color:#edf2fc;
 }
 
@@ -104,15 +104,19 @@ body{
 }
 .col1{
     flex-basis: 25%;
+   
 }
 .col2{
     flex-basis: 45%;
     color:var(--primary-color);
     
+    
+    background-color: rgba(71, 77, 71, 0.3);
 }
 .col2 h2{
     font-weight: bold;
     font-size: 50px;
+
 }
 .col2 p{
     font-size: 23px;
@@ -126,9 +130,17 @@ body{
 .btn .cv{
     background-color: var(--primary-color);
    color: var(--secondary-color);
+  
+
+   
    
 }
-
+.cv{
+    text-align: center;
+    margin-top: 60px;
+    border-radius: 8px;
+    
+}
 
 /* skills */
 
